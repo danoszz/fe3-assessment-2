@@ -2,7 +2,7 @@
 
 This packed bubble chart is constructed from .xlsx [data][cbs-data] storing the origins of defaulters (people who won't pay their bills) of the 'Health Insurance Law - _Zorgverzekeringswet_' of the total Dutch population on 31 December 2016\. It is based on this [`bl.ock`] by [**@mbostock**][block-author] (GPL-3.0 for the course [FE3](course-url).
 
-**_Warning_** The [demo]() visualization is in Dutch 🇳🇱
+**_Patriotic warning_** The [demo](https://danoszz.github.io/fe3-assessment-2/) visualization is in Dutch 🇳🇱
 
 [![][cover]][usage-link]
 
@@ -267,231 +267,232 @@ Westerse achtergrond,31940,11660,11770,6730,1790,2.2,2.8,3.2,2.0,0.6
 
 ```
 {
-    "name": "Alle Wanbetalers",
-    "Totaal_aantal": 249930,
-    "children": [{
-            "name": "Herkomst",
-            "Totaal_aantal": 249930,
-            "children": [{
-                    "name": "Nederlandse achtergrond",
-                    "Totaal_aantal": 130230
-                },
-                {
-                    "name": "Migratieachtergrond",
-                    "Totaal_aantal": 119700,
-                    "aantal_18_35": 57230,
-                    "aantal_35_50": 39570,
-                    "aantal_50_60": 19200,
-                    "aantal_60plus": 3700,
-                    "children": [{
-                            "name": "Marokkaans",
-                            "Totaal_aantal": 16020,
-                            "children": [{
-                                "name": "Leeftijd 18 - 35",
-                                "Totaal_aantal": 9910
-                                },
-                                {
-                                    "name": "Leeftijd 35 - 50",
-                                    "Totaal_aantal": 4760
-                                },
-                                {
-                                    "name": "Leeftijd 50 - 60",
-                                    "Totaal_aantal": 1130
-                                },
-                                {
-                                    "name": "Leeftijd 50 - 60",
-                                    "Totaal_aantal": 220
-                                }
-                            ]
-                        },
-                        {
-                            "name": "Turks",
-                            "Totaal_aantal": 14460,
-                            "children": [{
-                                "name": "Leeftijd 18 - 35",
-                                "Totaal_aantal": 6550
-                                },
-                                {
-                                    "name": "Leeftijd 35 - 50",
-                                    "Totaal_aantal": 5770
-                                },
-                                {
-                                    "name": "Leeftijd 50 - 60",
-                                    "Totaal_aantal": 1920
-                                },
-                                {
-                                    "name": "Leeftijd 50 - 60",
-                                    "Totaal_aantal": 230
-                                }
-                            ]
-                        },
-                        {
-                            "name": "Surinaams",
-                            "Totaal_aantal": 22130,
-                            "children": [{
-                                "name": "Leeftijd 18 - 35",
-                                "Totaal_aantal": 10080
-                                },
-                                {
-                                    "name": "Leeftijd 35 - 50",
-                                    "Totaal_aantal": 7250
-                                },
-                                {
-                                    "name": "Leeftijd 50 - 60",
-                                    "Totaal_aantal": 4080
-                                },
-                                {
-                                    "name": "Leeftijd 50 - 60",
-                                    "Totaal_aantal": 720
-                                }
-                            ]
-                        },
-                        {
-                            "name": "Antilliaans",
-                            "Totaal_aantal": 14250,
-                            "children": [{
-                                "name": "Leeftijd 18 - 35",
-                                "Totaal_aantal": 7670
-                                },
-                                {
-                                    "name": "Leeftijd 35 - 50",
-                                    "Totaal_aantal": 4040
-                                },
-                                {
-                                    "name": "Leeftijd 50 - 60",
-                                    "Totaal_aantal": 2170
-                                },
-                                {
-                                    "name": "Leeftijd 50 - 60",
-                                    "Totaal_aantal": 360
-                                }
-                            ]
-                        },
-                        {
-                            "name": "Overig niet-westerse achtergrond",
-                            "Totaal_aantal": 20900,
-                            "children": [{
-                                "name": "Leeftijd 18 - 35",
-                                "Totaal_aantal": 11360
-                                },
-                                {
-                                    "name": "Leeftijd 35 - 50",
-                                    "Totaal_aantal": 5980
-                                },
-                                {
-                                    "name": "Leeftijd 50 - 60",
-                                    "Totaal_aantal": 3180
-                                },
-                                {
-                                    "name": "Leeftijd 50 - 60",
-                                    "Totaal_aantal": 380
-                                }
-                            ]
-                        },
-                        {
-                            "name": "Westerse achtergrond",
-                            "Totaal_aantal": 31940,
-                            "children": [
-                                {
-                                "name": "Leeftijd 18 - 35",
-                                "Totaal_aantal": 11660
-                                },
-                                {
-                                    "name": "Leeftijd 35 - 50",
-                                    "Totaal_aantal": 11770
-                                },
-                                {
-                                    "name": "Leeftijd 50 - 60",
-                                    "Totaal_aantal": 6730
-                                },
-                                {
-                                    "name": "Leeftijd 50 - 60",
-                                    "Totaal_aantal": 1790
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
+	"name": "Alle Wanbetalers",
+	"Totaal_aantal": 249930,
+	"children": [{
+			"name": "Herkomst",
+			"Totaal_aantal": 249930,
+			"children": [{
+					"name": "Nederlandse achtergrond",
+					"Totaal_aantal": 130230
+				},
+				{
+					"name": "Migratieachtergrond",
+					"Totaal_aantal": 119700,
+					"aantal_18_35": 57230,
+					"aantal_35_50": 39570,
+					"aantal_50_60": 19200,
+					"aantal_60plus": 3700,
+					"children": [{
+							"name": "Marokkaans",
+							"Totaal_aantal": 16020,
+							"children": [{
+								"name": "Leeftijd 18 - 35",
+								"Totaal_aantal": 9910
+								},
+								{
+									"name": "Leeftijd 35 - 50",
+									"Totaal_aantal": 4760
+								},
+								{
+									"name": "Leeftijd 50 - 60",
+									"Totaal_aantal": 1130
+								},
+								{
+									"name": "Leeftijd 50 - 60",
+									"Totaal_aantal": 220
+								}
+							]
+						},
+						{
+							"name": "Turks",
+							"Totaal_aantal": 14460,
+							"children": [{
+								"name": "Leeftijd 18 - 35",
+								"Totaal_aantal": 6550
+								},
+								{
+									"name": "Leeftijd 35 - 50",
+									"Totaal_aantal": 5770
+								},
+								{
+									"name": "Leeftijd 50 - 60",
+									"Totaal_aantal": 1920
+								},
+								{
+									"name": "Leeftijd 50 - 60",
+									"Totaal_aantal": 230
+								}
+							]
+						},
+						{
+							"name": "Surinaams",
+							"Totaal_aantal": 22130,
+							"children": [{
+								"name": "Leeftijd 18 - 35",
+								"Totaal_aantal": 10080
+								},
+								{
+									"name": "Leeftijd 35 - 50",
+									"Totaal_aantal": 7250
+								},
+								{
+									"name": "Leeftijd 50 - 60",
+									"Totaal_aantal": 4080
+								},
+								{
+									"name": "Leeftijd 50 - 60",
+									"Totaal_aantal": 720
+								}
+							]
+						},
+						{
+							"name": "Antilliaans",
+							"Totaal_aantal": 14250,
+							"children": [{
+								"name": "Leeftijd 18 - 35",
+								"Totaal_aantal": 7670
+								},
+								{
+									"name": "Leeftijd 35 - 50",
+									"Totaal_aantal": 4040
+								},
+								{
+									"name": "Leeftijd 50 - 60",
+									"Totaal_aantal": 2170
+								},
+								{
+									"name": "Leeftijd 50 - 60",
+									"Totaal_aantal": 360
+								}
+							]
+						},
+						{
+							"name": "Overig niet-westerse achtergrond",
+							"Totaal_aantal": 20900,
+							"children": [{
+								"name": "Leeftijd 18 - 35",
+								"Totaal_aantal": 11360
+								},
+								{
+									"name": "Leeftijd 35 - 50",
+									"Totaal_aantal": 5980
+								},
+								{
+									"name": "Leeftijd 50 - 60",
+									"Totaal_aantal": 3180
+								},
+								{
+									"name": "Leeftijd 50 - 60",
+									"Totaal_aantal": 380
+								}
+							]
+						},
+						{
+							"name": "Westerse achtergrond",
+							"Totaal_aantal": 31940,
+							"children": [
+								{
+								"name": "Leeftijd 18 - 35",
+								"Totaal_aantal": 11660
+								},
+								{
+									"name": "Leeftijd 35 - 50",
+									"Totaal_aantal": 11770
+								},
+								{
+									"name": "Leeftijd 50 - 60",
+									"Totaal_aantal": 6730
+								},
+								{
+									"name": "Leeftijd 50 - 60",
+									"Totaal_aantal": 1790
+								}
+							]
+						}
+					]
+				}
+			]
 
-        },
-        {
-            "name": "Geslacht",
-            "Totaal_aantal": 249930,
-            "children": [{
-                    "name": "Leeftijd 18 - 35",
-                    "Totaal_aantal": 99350,
-                    "children": [{
-                            "name": "Man",
-                            "Totaal_aantal": 57860
-                        },
-                        {
-                            "name": "Vrouw",
-                            "Totaal_aantal": 41490
-                        }
-                    ]
-                },
-                {
-                    "name": "Leeftijd 35 - 50",
-                    "Totaal_aantal": 86410,
-                    "children": [{
-                            "name": "Man",
-                            "Totaal_aantal": 54280
-                        },
-                        {
-                            "name": "Vrouw",
-                            "Totaal_aantal": 32140
-                        }
-                    ]
-                },
-                {
-                    "name": "Leeftijd 50 - 60",
-                    "Totaal_aantal": 42540,
-                    "children": [{
-                            "name": "Man",
-                            "Totaal_aantal": 27010
-                        },
-                        {
-                            "name": "Vrouw",
-                            "Totaal_aantal": 15530
-                        }
-                    ]
-                },
-                {
-                    "name": "Leeftijd 60 plus",
-                    "Totaal_aantal": 21640,
-                    "children": [{
-                            "name": "Man",
-                            "Totaal_aantal": 14200
-                        },
-                        {
-                            "name": "Vrouw",
-                            "Totaal_aantal": 7440
-                        }
-                    ]
-                }
+		},
+		{
+			"name": "Geslacht",
+			"Totaal_aantal": 249930,
+			"children": [{
+					"name": "Leeftijd 18 - 35",
+					"Totaal_aantal": 99350,
+					"children": [{
+							"name": "Man",
+							"Totaal_aantal": 57860
+						},
+						{
+							"name": "Vrouw",
+							"Totaal_aantal": 41490
+						}
+					]
+				},
+				{
+					"name": "Leeftijd 35 - 50",
+					"Totaal_aantal": 86410,
+					"children": [{
+							"name": "Man",
+							"Totaal_aantal": 54280
+						},
+						{
+							"name": "Vrouw",
+							"Totaal_aantal": 32140
+						}
+					]
+				},
+				{
+					"name": "Leeftijd 50 - 60",
+					"Totaal_aantal": 42540,
+					"children": [{
+							"name": "Man",
+							"Totaal_aantal": 27010
+						},
+						{
+							"name": "Vrouw",
+							"Totaal_aantal": 15530
+						}
+					]
+				},
+				{
+					"name": "Leeftijd 60 plus",
+					"Totaal_aantal": 21640,
+					"children": [{
+							"name": "Man",
+							"Totaal_aantal": 14200
+						},
+						{
+							"name": "Vrouw",
+							"Totaal_aantal": 7440
+						}
+					]
+				}
 
-            ]
-        }
-    ]
+			]
+		}
+	]
 }
+
 ```
 
-#### So? The requirements said: clean data with code.
+#### So? The requirements said: clean data with code
 
 My Javascript skills are not that awesome that I can write vanilla Javascript to parse a CSV file, give it 10+ rules, convert it to JSON format, save it locally again and then pull it with D3: I decided to index the time needed for a solution.
 
-               |  Vanilla JS  |    Plugin use    | Manual cleaning | Hire a developer
--------------- | :----------: | :--------------: | :-------------: | :--------------:
-_Time needed_  |  > 4 hours   |    > 2 hours     |   10 minutes    |    30 minutes
-_Quality_      | Probably Low | Dynamic and high | Static and high |       High
-_Student type_ |   Good boy   |      Smart       |      Lazy       |   2rich2betrue
+|                |  Vanilla JS  |    Plugin use    | Manual cleaning | Hire a developer
+| -------------- | :----------: | :--------------: | :-------------: | :--------------:
+| _Time needed_  |  > 4 hours   |    > 2 hours     |   10 minutes    |    30 minutes
+| _Quality_      | Probably Low | Dynamic and high | Static and high |       High
+| _Student type_ |   Good boy   |      Smart       |      Lazy       |   2rich2betrue
 
 You see where I am going? I spend +6 hours in figuring out how to clean an already converted JSON with **vanilla Javaascript** file but my code [broke](http://gph.is/1NJCgdV) every single time. I learned a lot about [arrays](https://www.w3schools.com/jsref/jsref_obj_array.asp) and even dreamed about it. I decided to switch to a **plugin** called [Papaparse](http://papaparse.com/). After abusive of use _Papa_ I figured out that I didn't need to parse an CSV to JSON, store it locally and then load it again with D3\. It all seemed a bit to excessive for a data file containing not more than 100 data points.
 
 So again I ended up with **with zero results**. At this point I decided to have a beer with my mate [Mike][block-author] to figure out life.
 
-[][me-and-mike] _Image: Me almost giving up on Javascript, while Mike supports me._
+![][me-and-mike] _Image: Me almost giving up on Javascript, while Mike supports me._
 
 **So let's start writing D3 instead of whining about file structures 💔**
 
