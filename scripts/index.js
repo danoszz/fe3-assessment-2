@@ -22,7 +22,7 @@ const pack = d3
   .padding(2);
 
 // ok here we go, import data
-d3.json('../assets/data/data-manual.json', (error, root) => {
+d3.json('https://danoszz.github.io/fe3-assessment-2/assets/data/data-manual.json', (error, root) => {
   if (error) throw error;
 
   root = d3
@@ -57,7 +57,7 @@ d3.json('../assets/data/data-manual.json', (error, root) => {
     .attr("class", "label")
     .style("fill-opacity", d => (d.parent === root ? 1 : 0))
     .style("display", d => (d.parent === root ? "inline" : "none"))
-    .text(d => d.data.name + " " + "(" + d.data.Totaal_aantal + ")" ); // Insert custom data
+    .text(d => `${d.data.name} ` + `(${d.data.Totaal_aantal})`); // Insert custom data
 
   const node = g.selectAll("circle,text");
 
