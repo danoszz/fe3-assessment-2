@@ -27,14 +27,14 @@ d3.json('https://danoszz.github.io/fe3-assessment-2/assets/data/data-manual.json
 
   root = d3
     .hierarchy(root)
-    .sum(d => d.Totaal_aantal)
+    .sum(d => d.Totaal_aantal) // pick this key value for the size for the graphy, and later nodes.
     .sort((a, b) => a.value - b.value);
 
   let focus = root,
-    nodes = pack(root).descendants(),
+    nodes = pack(root).descendants(), // nodes are declared to be the descendants of the root graph
     view;
 
-  const circle = g
+  const circle = g // append circles
     .selectAll("circle")
     .data(nodes)
     .enter()
@@ -42,14 +42,14 @@ d3.json('https://danoszz.github.io/fe3-assessment-2/assets/data/data-manual.json
     .attr(
       "class",
       d =>
-        d.parent ? (d.children ? "node" : "node node--leaf") : "node node--root"
+        d.parent ? (d.children ? "node" : "node node--leaf") : "node node--root" // give class to parent and to children, works dynamicly
     )
-    .style("fill", d => (d.children ? color(d.depth) : null))
+    .style("fill", d => (d.children ? color(d.depth) : null)) // style the nodes depending on the depth in the graph
     .on("click", d => {
-      if (focus !== d) zoom(d), d3.event.stopPropagation();
+      if (focus !== d) zoom(d), d3.event.stopPropagation(); //Calling stopPropagation will only prevent propagation of a single event at a time, and these are separate events. source; https://stackoverflow.com/questions/11674886/stoppropagation-with-svg-element-and-g#11679433
     });
 
-  const text = g
+  const text = g // create and append text labels
     .selectAll("text")
     .data(nodes)
     .enter()
@@ -57,24 +57,24 @@ d3.json('https://danoszz.github.io/fe3-assessment-2/assets/data/data-manual.json
     .attr("class", "label")
     .style("fill-opacity", d => (d.parent === root ? 1 : 0))
     .style("display", d => (d.parent === root ? "inline" : "none"))
-    .text(d => `${d.data.name} ` + `(${d.data.Totaal_aantal})`); // Insert custom data
+    .text(d => `${d.data.name} ` + `(${d.data.Totaal_aantal})`); // Insert data from nodes
 
   const node = g.selectAll("circle,text");
 
   svg.style("background", color(-1)).on("click", () => {
-    zoom(root);
+    zoom(root); // change color depending on the depth of the visualization
   });
 
   zoomTo([root.x, root.y, root.r * 2 + margin]);
 
-  function zoom(d) {
+  function zoom(d) { // create zoom function for smooth focus shifts
     const focus0 = focus;
     focus = d;
 
     const transition = d3
       .transition()
       .duration(d3.event.altKey ? 7500 : 750)
-      .tween("zoom", d => {
+      .tween("zoom", d => { // run costom code between transition aka tween
         const i = d3.interpolateZoom(view, [
           focus.x,
           focus.y,
@@ -85,7 +85,7 @@ d3.json('https://danoszz.github.io/fe3-assessment-2/assets/data/data-manual.json
         };
       });
 
-    transition
+    transition // change visibility of the labels during the zoom
       .selectAll("text")
       .filter(function(d) {
         return d.parent === focus || this.style.display === "inline";
@@ -99,7 +99,7 @@ d3.json('https://danoszz.github.io/fe3-assessment-2/assets/data/data-manual.json
       });
   }
 
-  function zoomTo(v) {
+  function zoomTo(v) { // tell where the nodes should transform to when zooming
     const k = diameter / v[2];
     view = v;
     node.attr(
