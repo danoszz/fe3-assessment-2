@@ -95,40 +95,6 @@ main svg {
 	}
 }
 
-/*.links line {
-  stroke: #999;
-  stroke-opacity: 0.6;
-}
-linear-gradient(188deg,#b762ff,#0079ff,#f9e717,#ff576f,#b762ff,#459dff,#4ee4c4,#ffd117,#ff576f)
-
-.nodes circle {
-  stroke: #fff;
-  stroke-width: 1.5px;
-}*/
-/*div.tooltip {
-	position: absolute;
-	text-align: center;
-	width: 150px;
-
-	padding: 2px;
-	font: 12px sans-serif;
-	background: lightgrey;
-	border: 0px;
-	border-radius: 8px;
-	pointer-events: none;
-}*/
-/*text {
-  font: 10px sans-serif;
-  text-anchor: middle;
-}
-
-.node--hover circle {
-  stroke: #000;
-  stroke-width: 1.2px;
-}
-*/
-
-
 .node {
   cursor: pointer;
 }
