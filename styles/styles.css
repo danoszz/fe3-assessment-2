@@ -1,5 +1,7 @@
 * {
 	box-sizing: border-box;
+	line-height: calc(1em + 1ex);
+
 }
 
 body {
@@ -12,8 +14,21 @@ body {
 	margin: 0;
 }
 h1 {
-	font-size: 2.8rem;
-	line-height: 3.2rem;
+	margin-top: 0;
+	font-size: 2rem;
+	line-height: 2.2rem;
+}
+a {
+	color: inherit;
+	text-decoration: underline;
+	text-decoration-skip: ink;
+}
+a:hover {
+	color: #F2B2F1;
+}
+p {
+	margin-top: calc(1em + 1ex);
+	margin-bottom: calc(1em + 1ex);
 }
 header {
 	display: flex;
@@ -22,10 +37,11 @@ header {
 	width: 50vh;
 }
 header section {
-	width: 50vh;
+	width: 100%;
 	height: 50vh;
-	padding: 3rem;
-
+	padding: 2rem;
+	position: relative;
+	overflow: hidden;
 }
 
 header section.info {
@@ -35,6 +51,17 @@ header section.info {
 
 header section.legend {
 	background-color: #62082B;
+	color: #C4F4FF;
+}
+
+.legend--source {
+	margin-top: auto;
+	position: absolute;
+	top: 3rem;
+	right: 3rem;
+
+	transform: rotate(-90deg);
+	transform-origin: right center;
 }
 
 
@@ -49,13 +76,22 @@ main {
 main svg {
 	background-image: linear-gradient(-180deg, #F2B2F1 0%, #C360D7 100%) !important;
 	border-radius: 50%;
+	box-shadow: 0 20px 40px 0 rgba(0,0,0,0.20);
 
 }
-@media (max-width: 60em) {
+@media (max-width: 1250px) {
+	body {
+		flex-direction: column;
+	}
 	header {
 		width: 100vw;
 		height: 20vh;
 		flex-direction: row;
+	}
+
+	main {
+		width: 100vw;
+		height: 100vh;
 	}
 }
 
@@ -98,8 +134,8 @@ linear-gradient(188deg,#b762ff,#0079ff,#f9e717,#ff576f,#b762ff,#459dff,#4ee4c4,#
 }
 
 .node:hover {
-  stroke: #000;
-  stroke-width: 1.5px;
+  stroke: #F2B2F1;
+  stroke-width: 2px;
 }
 
 .node--leaf {
@@ -107,9 +143,10 @@ linear-gradient(188deg,#b762ff,#0079ff,#f9e717,#ff576f,#b762ff,#459dff,#4ee4c4,#
 }
 
 .label {
-	font-size: 0.8rem;
+	font-size: 0.9rem;
   text-anchor: middle;
-  text-shadow: 0 1px 0 #fff, 1px 0 0 #fff, -1px 0 0 #fff, 0 -1px 0 #fff;
+	padding: 5px;
+	fill: #62082B;
 }
 
 .label,
