@@ -1,0 +1,74 @@
+﻿{
+   "Alle wanbetalers": {
+      "Totaal aantal": 249.93,
+      "18 tot 35 jaar": 2.8,
+      "35 tot 50 jaar": 2.6,
+      "50 tot 65 jaar": 1.5,
+      "65 jaar en ouder": 0.4,
+      "Totaal %": 1.8
+   },
+   "Nederlandse achtergrond": {
+      "Totaal aantal": 130.23,
+      "18 tot 35 jaar": 1.7,
+      "35 tot 50 jaar": 1.9,
+      "50 tot 65 jaar": 1.2,
+      "65 jaar en ouder": 0.3,
+      "Totaal %": 1.2
+   },
+   "Migratieachtergrond": {
+      "Totaal aantal": 119.7,
+      "18 tot 35 jaar": 5.4,
+      "35 tot 50 jaar": 4.6,
+      "50 tot 65 jaar": 3,
+      "65 jaar en ouder": 0.9,
+      "Totaal %": 4
+   },
+   "Marokkaans": {
+      "Totaal aantal": 16.02,
+      "18 tot 35 jaar": 9.3,
+      "35 tot 50 jaar": 5.3,
+      "50 tot 65 jaar": 2.5,
+      "65 jaar en ouder": 0.9,
+      "Totaal %": 6.1
+   },
+   "Turks": {
+      "Totaal aantal": 14.46,
+      "18 tot 35 jaar": 5.5,
+      "35 tot 50 jaar": 5.5,
+      "50 tot 65 jaar": 3.5,
+      "65 jaar en ouder": 1,
+      "Totaal %": 4.8
+   },
+   "Surinaams": {
+      "Totaal aantal": 22.13,
+      "18 tot 35 jaar": 10.6,
+      "35 tot 50 jaar": 8.8,
+      "50 tot 65 jaar": 5.4,
+      "65 jaar en ouder": 2.3,
+      "Totaal %": 7.8
+   },
+   "Antilliaans": {
+      "Totaal aantal": 14.25,
+      "18 tot 35 jaar": 15,
+      "35 tot 50 jaar": 13,
+      "50 tot 65 jaar": 9.7,
+      "65 jaar en ouder": 4,
+      "Totaal %": 12.5
+   },
+   "Overig niet-westerse achtergrond": {
+      "Totaal aantal": 20.9,
+      "18 tot 35 jaar": 4,
+      "35 tot 50 jaar": 3.2,
+      "50 tot 65 jaar": 2.8,
+      "65 jaar en ouder": 1.2,
+      "Totaal %": 3.4
+   },
+   "Westerse achtergrond": {
+      "Totaal aantal": 31.94,
+      "18 tot 35 jaar": 2.8,
+      "35 tot 50 jaar": 3.2,
+      "50 tot 65 jaar": 2,
+      "65 jaar en ouder": 0.6,
+      "Totaal %": 2.2
+   }
+}

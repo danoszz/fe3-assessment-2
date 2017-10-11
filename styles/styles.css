@@ -1,0 +1,119 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	/* System stack font-family by @wooorm */
+	font-family: Roboto, -apple-system, BlinkMacSystemFont, Helvetica Neue, Segoe UI, Oxygen, Ubuntu, Cantarell, Open Sans, sans-serif;
+	display: flex;
+	flex-direction: row;
+	min-height: 100vh;
+	text-align: left;
+	margin: 0;
+}
+h1 {
+	font-size: 2.8rem;
+	line-height: 3.2rem;
+}
+header {
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+	width: 50vh;
+}
+header section {
+	width: 50vh;
+	height: 50vh;
+	padding: 3rem;
+
+}
+
+header section.info {
+	background-color: #C4F4FF;
+	color: #62082B;
+}
+
+header section.legend {
+	background-color: #62082B;
+}
+
+
+main {
+	background-color: #0B47F8;
+	width: calc(100vw - 50vh);
+	display: flex;
+	min-height: 100vh;
+	align-items: center;
+	justify-content: center;
+}
+main svg {
+	background-image: linear-gradient(-180deg, #F2B2F1 0%, #C360D7 100%) !important;
+	border-radius: 50%;
+
+}
+@media (max-width: 60em) {
+	header {
+		width: 100vw;
+		height: 20vh;
+		flex-direction: row;
+	}
+}
+
+/*.links line {
+  stroke: #999;
+  stroke-opacity: 0.6;
+}
+linear-gradient(188deg,#b762ff,#0079ff,#f9e717,#ff576f,#b762ff,#459dff,#4ee4c4,#ffd117,#ff576f)
+
+.nodes circle {
+  stroke: #fff;
+  stroke-width: 1.5px;
+}*/
+/*div.tooltip {
+	position: absolute;
+	text-align: center;
+	width: 150px;
+
+	padding: 2px;
+	font: 12px sans-serif;
+	background: lightgrey;
+	border: 0px;
+	border-radius: 8px;
+	pointer-events: none;
+}*/
+/*text {
+  font: 10px sans-serif;
+  text-anchor: middle;
+}
+
+.node--hover circle {
+  stroke: #000;
+  stroke-width: 1.2px;
+}
+*/
+
+
+.node {
+  cursor: pointer;
+}
+
+.node:hover {
+  stroke: #000;
+  stroke-width: 1.5px;
+}
+
+.node--leaf {
+  fill: white;
+}
+
+.label {
+	font-size: 0.8rem;
+  text-anchor: middle;
+  text-shadow: 0 1px 0 #fff, 1px 0 0 #fff, -1px 0 0 #fff, 0 -1px 0 #fff;
+}
+
+.label,
+.node--root,
+.node--leaf {
+  pointer-events: none;
+}

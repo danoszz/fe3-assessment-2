@@ -1,0 +1,405 @@
+Tabel 1.4,,,,
+"Aantal wanbetalers met een bestuursrechtelijke premie per gemeente, absoluut en relatief, 31 december 2016",,,,
+,,,,
+Gemeentecode,Gemeente,,,
+,,,,
+,,aantal,,%
+,,,,
+,Totaal,"249,930",,1.8
+,,,,
+0003,Appingedam,260,,2.7
+0005,Bedum,80,,0.9
+0007,Bellingwedde,170,,2.2
+0009,Ten Boer,40,,0.8
+0010,Delfzijl,530,,2.6
+0014,Groningen,"3,410",,2.0
+0015,Grootegast,120,,1.2
+0017,Haren,80,,0.5
+0018,Hoogezand-Sappemeer,840,,3.0
+0022,Leek,250,,1.6
+0024,Loppersum,110,,1.3
+0025,Marum,100,,1.2
+0034,Almere,"4,990",,3.2
+0037,Stadskanaal,640,,2.4
+0040,Slochteren,160,,1.3
+0047,Veendam,610,,2.7
+0048,Vlagtwedde,230,,1.8
+0050,Zeewolde,230,,1.4
+0053,Winsum,90,,0.8
+0056,Zuidhorn,120,,0.8
+0058,Dongeradeel,240,,1.3
+0059,Achtkarspelen,330,,1.5
+0060,Ameland,30,,0.9
+0063,het Bildt,100,,1.3
+0070,Franekeradeel,280,,1.7
+0072,Harlingen,220,,1.7
+0074,Heerenveen,590,,1.5
+0079,Kollumerland en Nieuwkruisland,150,,1.5
+0080,Leeuwarden,"2,680",,3.0
+0081,Leeuwarderadeel,70,,0.8
+0085,Ooststellingwerf,320,,1.6
+0086,Opsterland,240,,1.0
+0088,Schiermonnikoog,20,,1.9
+0090,Smallingerland,810,,1.8
+0093,Terschelling,30,,0.7
+0096,Vlieland,10,,1.1
+0098,Weststellingwerf,350,,1.7
+0106,Assen,970,,1.8
+0109,Coevorden,440,,1.5
+0114,Emmen,"2,170",,2.5
+0118,Hoogeveen,670,,1.5
+0119,Meppel,310,,1.2
+0140,Littenseradiel,50,,0.6
+0141,Almelo,"1,530",,2.7
+0147,Borne,150,,0.9
+0148,Dalfsen,130,,0.6
+0150,Deventer,"1,630",,2.1
+0153,Enschede,"2,930",,2.3
+0158,Haaksbergen,220,,1.1
+0160,Hardenberg,490,,1.1
+0163,Hellendoorn,250,,0.9
+0164,Hengelo,"1,250",,1.9
+0166,Kampen,460,,1.1
+0168,Losser,230,,1.3
+0171,Noordoostpolder,480,,1.3
+0173,Oldenzaal,290,,1.1
+0175,Ommen,120,,0.9
+0177,Raalte,210,,0.7
+0180,Staphorst,90,,0.7
+0183,Tubbergen,90,,0.6
+0184,Urk,80,,0.6
+0189,Wierden,130,,0.7
+0193,Zwolle,"1,670",,1.7
+0196,Rijnwaarden,180,,2.0
+0197,Aalten,180,,0.8
+0200,Apeldoorn,"2,120",,1.7
+0202,Arnhem,"3,990",,3.2
+0203,Barneveld,370,,0.9
+0209,Beuningen,230,,1.1
+0213,Brummen,220,,1.3
+0214,Buren,290,,1.4
+0216,Culemborg,380,,1.7
+0221,Doesburg,240,,2.5
+0222,Doetinchem,770,,1.7
+0225,Druten,160,,1.1
+0226,Duiven,250,,1.2
+0228,Ede,"1,130",,1.3
+0230,Elburg,200,,1.1
+0232,Epe,340,,1.3
+0233,Ermelo,290,,1.3
+0236,Geldermalsen,220,,1.1
+0243,Harderwijk,610,,1.7
+0244,Hattem,50,,0.6
+0246,Heerde,150,,1.0
+0252,Heumen,90,,0.7
+0262,Lochem,230,,0.8
+0263,Maasdriel,230,,1.2
+0267,Nijkerk,320,,1.0
+0268,Nijmegen,"2,780",,1.9
+0269,Oldebroek,200,,1.1
+0273,Putten,190,,1.0
+0274,Renkum,330,,1.3
+0275,Rheden,650,,1.8
+0277,Rozendaal,-  ,,-  
+0279,Scherpenzeel,50,,0.7
+0281,Tiel,870,,2.7
+0285,Voorst,160,,0.8
+0289,Wageningen,320,,1.0
+0293,Westervoort,210,,1.7
+0294,Winterswijk,330,,1.4
+0296,Wijchen,300,,0.9
+0297,Zaltbommel,230,,1.1
+0299,Zevenaar,450,,1.7
+0301,Zutphen,690,,1.8
+0302,Nunspeet,180,,0.9
+0303,Dronten,480,,1.5
+0304,Neerijnen,120,,1.3
+0307,Amersfoort,"1,940",,1.6
+0308,Baarn,240,,1.2
+0310,De Bilt,320,,1.0
+0312,Bunnik,60,,0.5
+0313,Bunschoten,140,,0.9
+0317,Eemnes,50,,0.7
+0321,Houten,260,,0.7
+0327,Leusden,110,,0.5
+0331,Lopik,110,,1.0
+0335,Montfoort,80,,0.7
+0339,Renswoude,30,,0.8
+0340,Rhenen,240,,1.6
+0342,Soest,430,,1.2
+0344,Utrecht,"4,960",,1.8
+0345,Veenendaal,720,,1.5
+0351,Woudenberg,70,,0.7
+0352,Wijk bij Duurstede,200,,1.1
+0353,IJsselstein,340,,1.3
+0355,Zeist,780,,1.6
+0356,Nieuwegein,900,,1.8
+0358,Aalsmeer,290,,1.2
+0361,Alkmaar,"1,260",,1.4
+0362,Amstelveen,710,,1.0
+0363,Amsterdam,"19,800",,2.8
+0370,Beemster,40,,0.5
+0373,Bergen (NH.),120,,0.5
+0375,Beverwijk,680,,2.1
+0376,Blaricum,70,,0.9
+0377,Bloemendaal,120,,0.7
+0383,Castricum,160,,0.6
+0384,Diemen,470,,2.1
+0385,Edam-Volendam,160,,0.6
+0388,Enkhuizen,240,,1.6
+0392,Haarlem,"2,460",,1.9
+0393,Haarlemmerliede en Spaarnwoude,50,,1.0
+0394,Haarlemmermeer,"1,490",,1.3
+0396,Heemskerk,400,,1.3
+0397,Heemstede,120,,0.6
+0398,Heerhugowaard,550,,1.3
+0399,Heiloo,100,,0.6
+0400,Den Helder,"1,020",,2.2
+0402,Hilversum,"1,270",,1.8
+0405,Hoorn,990,,1.7
+0406,Huizen,440,,1.3
+0415,Landsmeer,80,,0.9
+0416,Langedijk,180,,0.8
+0417,Laren,60,,0.7
+0420,Medemblik,380,,1.1
+0431,Oostzaan,80,,1.0
+0432,Opmeer,70,,0.8
+0437,Ouder-Amstel,110,,1.1
+0439,Purmerend,970,,1.5
+0441,Schagen,310,,0.8
+0448,Texel,80,,0.7
+0450,Uitgeest,80,,0.8
+0451,Uithoorn,320,,1.4
+0453,Velsen,980,,1.8
+0457,Weesp,230,,1.5
+0473,Zandvoort,300,,2.1
+0479,Zaanstad,"2,920",,2.4
+0482,Alblasserdam,220,,1.5
+0484,Alphen aan den Rijn,"1,210",,1.4
+0489,Barendrecht,360,,1.0
+0498,Drechterland,110,,0.7
+0501,Brielle,130,,0.9
+0502,Capelle aan den IJssel,"1,640",,3.1
+0503,Delft,"1,770",,2.1
+0505,Dordrecht,"3,150",,3.3
+0512,Gorinchem,690,,2.4
+0513,Gouda,"1,270",,2.2
+0518,'s-Gravenhage,"15,970",,3.8
+0523,Hardinxveld-Giessendam,110,,0.8
+0530,Hellevoetsluis,480,,1.5
+0531,Hendrik-Ido-Ambacht,210,,0.9
+0532,Stede Broec,230,,1.4
+0534,Hillegom,180,,1.1
+0537,Katwijk,570,,1.2
+0542,Krimpen aan den IJssel,300,,1.3
+0545,Leerdam,360,,2.2
+0546,Leiden,"1,910",,1.8
+0547,Leiderdorp,180,,0.8
+0553,Lisse,140,,0.8
+0556,Maassluis,510,,2.0
+0569,Nieuwkoop,190,,0.9
+0575,Noordwijk,210,,1.0
+0576,Noordwijkerhout,120,,0.9
+0579,Oegstgeest,120,,0.7
+0584,Oud-Beijerland,160,,0.8
+0585,Binnenmaas,170,,0.7
+0588,Korendijk,50,,0.6
+0589,Oudewater,60,,0.8
+0590,Papendrecht,410,,1.6
+0597,Ridderkerk,500,,1.4
+0599,Rotterdam,"24,570",,4.8
+0603,Rijswijk,900,,2.1
+0606,Schiedam,"2,590",,4.1
+0610,Sliedrecht,310,,1.6
+0611,Cromstrijen,80,,0.7
+0613,Albrandswaard,240,,1.2
+0614,Westvoorne,100,,0.8
+0617,Strijen,50,,0.7
+0620,Vianen,240,,1.5
+0622,Vlaardingen,"1,820",,3.1
+0626,Voorschoten,180,,0.9
+0627,Waddinxveen,300,,1.4
+0629,Wassenaar,200,,1.0
+0632,Woerden,330,,0.8
+0637,Zoetermeer,"2,160",,2.2
+0638,Zoeterwoude,50,,0.7
+0642,Zwijndrecht,730,,2.1
+0654,Borsele,130,,0.7
+0664,Goes,290,,1.0
+0668,West Maas en Waal,150,,1.0
+0677,Hulst,200,,0.9
+0678,Kapelle,50,,0.5
+0687,Middelburg,460,,1.2
+0689,Giessenlanden,100,,0.9
+0703,Reimerswaal,180,,1.1
+0707,Zederik,100,,0.9
+0715,Terneuzen,720,,1.6
+0716,Tholen,260,,1.3
+0717,Veere,80,,0.5
+0718,Vlissingen,850,,2.3
+0733,Lingewaal,100,,1.1
+0736,De Ronde Venen,340,,1.0
+0737,Tytsjerksteradiel,250,,1.0
+0738,Aalburg,90,,0.9
+0743,Asten,110,,0.8
+0744,Baarle-Nassau,50,,0.9
+0748,Bergen op Zoom,"1,160",,2.2
+0753,Best,190,,0.8
+0755,Boekel,50,,0.7
+0756,Boxmeer,190,,0.8
+0757,Boxtel,320,,1.3
+0758,Breda,"2,580",,1.8
+0762,Deurne,160,,0.6
+0765,Pekela,360,,3.5
+0766,Dongen,240,,1.2
+0770,Eersel,70,,0.4
+0772,Eindhoven,"4,040",,2.2
+0777,Etten-Leur,440,,1.3
+0779,Geertruidenberg,200,,1.1
+0784,Gilze en Rijen,220,,1.0
+0785,Goirle,110,,0.6
+0786,Grave,120,,1.2
+0788,Haaren,70,,0.6
+0794,Helmond,"1,630",,2.3
+0796,'s-Hertogenbosch,"2,270",,1.8
+0797,Heusden,410,,1.2
+0798,Hilvarenbeek,70,,0.5
+0809,Loon op Zand,200,,1.1
+0815,Mill en Sint Hubert,80,,0.9
+0820,"Nuenen, Gerwen en Nederwetten",130,,0.7
+0823,Oirschot,100,,0.7
+0824,Oisterwijk,150,,0.7
+0826,Oosterhout,640,,1.4
+0828,Oss,"1,290",,1.8
+0840,Rucphen,290,,1.5
+0844,Schijndel,220,,1.2
+0845,Sint-Michielsgestel,160,,0.7
+0846,Sint-Oedenrode,110,,0.8
+0847,Someren,90,,0.6
+0848,Son en Breugel,100,,0.8
+0851,Steenbergen,270,,1.3
+0852,Waterland,90,,0.7
+0855,Tilburg,"4,050",,2.3
+0856,Uden,420,,1.3
+0858,Valkenswaard,280,,1.1
+0860,Veghel,330,,1.1
+0861,Veldhoven,380,,1.1
+0865,Vught,220,,1.1
+0866,Waalre,90,,0.7
+0867,Waalwijk,640,,1.7
+0870,Werkendam,180,,0.8
+0873,Woensdrecht,230,,1.3
+0874,Woudrichem,80,,0.7
+0879,Zundert,250,,1.4
+0880,Wormerland,160,,1.3
+0881,Onderbanken,130,,1.9
+0882,Landgraaf,640,,2.0
+0888,Beek,180,,1.4
+0889,Beesel,130,,1.2
+0893,Bergen (L.),110,,1.0
+0899,Brunssum,470,,2.0
+0907,Gennep,180,,1.3
+0917,Heerlen,"2,570",,3.5
+0928,Kerkrade,"1,260",,3.2
+0935,Maastricht,"2,160",,2.0
+0938,Meerssen,160,,1.0
+0944,Mook en Middelaar,40,,0.6
+0946,Nederweert,110,,0.8
+0951,Nuth,150,,1.1
+0957,Roermond,920,,2.0
+0962,Schinnen,110,,1.0
+0965,Simpelveld,120,,1.3
+0971,Stein,240,,1.1
+0981,Vaals,130,,1.6
+0983,Venlo,"1,750",,2.1
+0984,Venray,500,,1.4
+0986,Voerendaal,70,,0.7
+0988,Weert,460,,1.1
+0994,Valkenburg aan de Geul,230,,1.6
+0995,Lelystad,"2,370",,4.0
+1507,Horst aan de Maas,210,,0.6
+1509,Oude IJsselstreek,390,,1.2
+1525,Teylingen,220,,0.8
+1581,Utrechtse Heuvelrug,430,,1.1
+1586,Oost Gelre,170,,0.7
+1598,Koggenland,110,,0.6
+1621,Lansingerland,370,,0.8
+1640,Leudal,240,,0.8
+1641,Maasgouw,180,,0.9
+1651,Eemsmond,220,,1.7
+1652,Gemert-Bakel,240,,1.0
+1655,Halderberge,360,,1.5
+1658,Heeze-Leende,80,,0.7
+1659,Laarbeek,120,,0.7
+1663,De Marne,160,,2.0
+1667,Reusel-De Mierden,80,,0.7
+1669,Roerdalen,230,,1.3
+1674,Roosendaal,"1,240",,2.0
+1676,Schouwen-Duiveland,220,,0.8
+1680,Aa en Hunze,250,,1.2
+1681,Borger-Odoorn,300,,1.5
+1684,Cuijk,280,,1.4
+1685,Landerd,70,,0.5
+1690,De Wolden,110,,0.6
+1695,Noord-Beveland,70,,1.1
+1696,Wijdemeren,170,,0.9
+1699,Noordenveld,300,,1.2
+1700,Twenterand,310,,1.2
+1701,Westerveld,150,,1.0
+1702,Sint Anthonis,40,,0.4
+1705,Lingewaard,340,,0.9
+1706,Cranendonck,150,,0.9
+1708,Steenwijkerland,500,,1.4
+1709,Moerdijk,390,,1.3
+1711,Echt-Susteren,300,,1.1
+1714,Sluis,180,,0.9
+1719,Drimmelen,160,,0.7
+1721,Bernheze,220,,0.9
+1722,Ferwerderadiel,100,,1.4
+1723,Alphen-Chaam,60,,0.7
+1724,Bergeijk,120,,0.8
+1728,Bladel,90,,0.6
+1729,Gulpen-Wittem,120,,1.0
+1730,Tynaarlo,220,,0.8
+1731,Midden-Drenthe,320,,1.2
+1734,Overbetuwe,350,,1.0
+1735,Hof van Twente,210,,0.8
+1740,Neder-Betuwe,220,,1.3
+1742,Rijssen-Holten,210,,0.7
+1771,Geldrop-Mierlo,440,,1.4
+1773,Olst-Wijhe,110,,0.8
+1774,Dinkelland,110,,0.5
+1783,Westland,680,,0.8
+1842,Midden-Delfland,80,,0.6
+1859,Berkelland,310,,0.9
+1876,Bronckhorst,180,,0.6
+1883,Sittard-Geleen,"1,910",,2.4
+1884,Kaag en Braassem,150,,0.7
+1891,Dantumadiel,160,,1.1
+1892,Zuidplas,390,,1.2
+1894,Peel en Maas,230,,0.7
+1895,Oldambt,830,,2.7
+1896,Zwartewaterland,140,,0.8
+1900,Súdwest-Fryslân,890,,1.3
+1901,Bodegraven-Reeuwijk,260,,1.0
+1903,Eijsden-Margraten,170,,0.8
+1904,Stichtse Vecht,590,,1.2
+1908,Menameradiel,110,,1.0
+1911,Hollands Kroon,370,,1.0
+1916,Leidschendam-Voorburg,900,,1.5
+1924,Goeree-Overflakkee,310,,0.8
+1926,Pijnacker-Nootdorp,390,,1.0
+1927,Molenwaard,210,,1.0
+1930,Nissewaard,"1,420",,2.1
+1931,Krimpenerwaard,420,,1.0
+1940,De Fryske Marren,440,,1.1
+1942,Gooise Meren,550,,1.3
+1945,Berg en Dal,310,,1.1
+1955,Montferland,410,,1.4
+1987,Menterwolde,190,,1.9
+,,,,
+Bron: CBS,,,,
+,,,,
+Percentage t.o.v. van gehele bevolking in de betreffende groep.,,,,
+"Aantallen afgerond op veelvouden van 10, percentages op veelvouden van 0,1. ",,,,
+"Als aantallen afgerond 0 zijn, zijn bijbehorende percentages ook afgerond op 0 en weergegeven als '-'.",,,,
