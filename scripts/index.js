@@ -1,4 +1,4 @@
-// Credits go to Mike Bostock
+// All credits go to Mike Bostock
 // Source: https://bl.ocks.org/mbostock/7607535
 
 let svg = d3.select('svg'),
@@ -11,8 +11,8 @@ let svg = d3.select('svg'),
 // set color range for colors
 const color = d3
   .scaleLinear()
-  .domain([-1, 5])
-  .range(["hsl(225,94%,51%)", "hsl(168,74%,60%)"]) // //(290,60%,61
+  .domain([0, 5])
+  .range(["hsl(225,94%,51%)", "hsl(168,74%,60%)"]) // set custom color range
   .interpolate(d3.interpolateHcl);
 
 // apply pack layout
@@ -20,14 +20,6 @@ const pack = d3
   .pack()
   .size([diameter - margin, diameter - margin])
   .padding(2);
-
-// Set different kind of children nodes
-const childrenNodes = {
-  aantal_18_35: "18 tot 35",
-  aantal_35_50: "35 tot 50",
-  aantal_50_60: "50 tot 60",
-  aantal_60plus: "60 plus"
-};
 
 // ok here we go, import data
 d3.json('../assets/data/data-manual.json', (error, root) => {
@@ -65,7 +57,7 @@ d3.json('../assets/data/data-manual.json', (error, root) => {
     .attr("class", "label")
     .style("fill-opacity", d => (d.parent === root ? 1 : 0))
     .style("display", d => (d.parent === root ? "inline" : "none"))
-    .text(d => `${d.data.name} ${d.data.Totaal_aantal}`); // Insert custom data
+    .text(d => d.data.name + " " + "(" + d.data.Totaal_aantal + ")" ); // Insert custom data
 
   const node = g.selectAll("circle,text");
 
