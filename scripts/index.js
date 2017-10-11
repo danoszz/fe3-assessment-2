@@ -1,3 +1,6 @@
+// Credits go to Mike Bostock
+// Source: https://bl.ocks.org/mbostock/7607535
+
 let svg = d3.select('svg'),
   margin = 100,
   diameter = +svg.attr("width"),
