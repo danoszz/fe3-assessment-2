@@ -488,7 +488,7 @@ My Javascript skills are not that awesome that I can write vanilla Javascript to
 | _Quality_      | Probably Low | Dynamic and high | Static and high |       High
 | _Student type_ |   Good boy   |      Smart       |      Lazy       |   2rich2betrue
 
-You see where I am going? I spend +6 hours in figuring out how to clean an already converted JSON with **vanilla Javaascript** file but my code [broke](http://gph.is/1NJCgdV) every single time. I learned a lot about [arrays](https://www.w3schools.com/jsref/jsref_obj_array.asp) and even dreamed about it. I decided to switch to a **plugin** called [Papaparse](http://papaparse.com/). After abusive of use _Papa_ I figured out that I didn't need to parse an CSV to JSON, store it locally and then load it again with D3\. It all seemed a bit to excessive for a data file containing not more than 100 data points.
+You see where I am going? I spend +6 hours in figuring out how to clean an already converted JSON with **vanilla Javascript** file but my code [broke](http://gph.is/1NJCgdV) every single time. I learned a lot about [arrays](https://www.w3schools.com/jsref/jsref_obj_array.asp) and even dreamed about it. I decided to switch to a **plugin** called [Papaparse](http://papaparse.com/). After abusive of use _Papa_ I figured out that I didn't need to parse an CSV to JSON, store it locally and then load it again with D3\. It all seemed a bit to excessive for a data file containing not more than 100 data points.
 
 So again I ended up with **with zero results**. At this point I decided to have a beer with my mate [Mike][block-author] to figure out life.
 
@@ -550,17 +550,33 @@ In the [example][block] I used as base the data file contains multiple leveled d
 
 **Problem**: "The data that is shown has the key-name _children_ in the JSON file." **Solution**: Give a multiple value to d.children so not only _children_ matches, but everything that is nested. That makes the code dynamic. OR nest everything in the JSON with this _children_ structure. It is static, but it works flawlessly.
 
+
+## The final product
+
+I think I have written > 1000 lines of Javascript but in the final product only 10 lines are mine. Almost everything is still the [`bl.ock`][block] from [Mike][block-author]. But ***it finally works*** 🍾
+
+### To do
+
+- [x] Create preview image
+- [x] Add comments in code
+- [ ] Ask help for converting data to complicated JSON files, so clean data with code
+- [ ] Responsive styling graph
+
+
 ## Local usage
 
 To use this visualization in a local environment you can take the following steps in your favorite terminal like application. Feel free to adjust the code!
 
-`cd yourdirectory`
+```
+cd yourdirectory
 
-`git clone https://github.com/cmda-fe3/course-17-18/tree/master/site/class-3-transition/danoszz`
+git clone https://danoszz.github.io/fe3-assessment-2/
 
-`cd danoszz`
+cd danoszz
 
-`python -m SimpleHTTPServer 8000`
+python -m SimpleHTTPServer 8000
+
+```
 
 ## Features
 
@@ -568,7 +584,6 @@ To use this visualization in a local environment you can take the following step
 
 - [d3.select](https://github.com/d3/d3-selection/blob/master/README.md#select) - select an element from the document.
 - [d3.selectAll](https://github.com/d3/d3-selection/blob/master/README.md#selectAll) - select multiple elements from the document.
-* [*continuous*.domain](https://github.com/d3/d3-scale/blob/master/README.md#continuous_domain) - set the input domain.
 * [d3.range](https://github.com/d3/d3-array/blob/master/README.md#range) - generate a range of numeric values.
 * [d3.scaleLinear](https://github.com/d3/d3-scale/blob/master/README.md#scaleLinear) - create a quantitative linear scale.
 * [d3.interpolate](https://github.com/d3/d3-interpolate/blob/master/README.md#interpolate) - interpolate arbitrary values.
@@ -610,12 +625,6 @@ To use this visualization in a local environment you can take the following step
   - zoom in to new group
   - explore new data
 
-## To do
-
-- [x] Create preview image
-- [ ] Ask help for converting data to complicated JSON files
-- [ ] Responsive styling graph
-- [ ] Add comments in code
 
 ## License
 
